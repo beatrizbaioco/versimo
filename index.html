@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Versímo-Contato</title>
+    <link rel="stylesheet" href="home.css">
+    <link rel="icon" type="image/x-icon"
+href="imagem/Ativo 7 1.png">
+<style>
+ 
+</style>
+</head>
+<div class="popupbonito" id="popupbonito">
+<body>
+      <div class="popup-caixa" id="popup">
+        <div class="popup-conteudo">
+            <span class="fechar" onclick="fecharPopup()">&times;
+            </span>
+            <p>ganhe 5% na primeira compra com o cupom "livrolover45"</p>
+            <div id="popup-caixa"></div>
+            <img src="c:\Users\Aluno\Desktop\versimo\imagem\evelly hugo.png" alt="livro" class="centro">
+
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+
+    <script>
+        setTimeout(function () {
+            abrirPopup ();
+        }, 5000);
+
+        setTimeout(function() {
+            fecharPopup();
+        }, 10000);
+        
+        // Função para abrir o pop-up
+        function abrirPopup() {
+            popup.style.display = "block";
+        }
+
+        // Função para fechar o pop-up
+        function fecharPopup() {
+            var popup = document.getElementById("popup");
+            popup.style.display = "none";
+        }
+
+    </script>
+    
+    <div class="capa">
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#">Contato</a></li>
+                    <img src="imagem/Ativo 3 1.png" alt="logo versimo" class="logo">
+                    <li><a href="#">Grupo</a></li>
+                    <li><a href="#">Catálogo</a></li>
+                </ul>
+            </nav>
+        </header>
+
+       <h1>VERSÍMO</h1>
+       <h2>Mais vendidos:</h2>
+
+        <div class="fotosfuturas">
+            <img src="imagem/image 10.png" alt="foto">
+            <img src="c:\Users\Aluno\Desktop\harry potter_ baioco.JPG" alt="foto">
+            <img src="c:\Users\Aluno\Downloads\ana clara-3.jpg" alt="foto">
+        </div>
+    </div>
+    
+    <!-- <div class="imagemlateral">
+        <img src="imagem/foto bibloteca.png" alt="Imagem Redonda" class="imagem-redonda">
+    </div> -->
+
+    <footer class="rodape">
+        <img class="logomenu" src="imagem/Ativo 2 1.png" alt="logo">
+        <img src="imagem/whatsapp.png" alt="" width="50px">
+        <img src="imagem/instagram.png" alt="" width="50px">
+        <img src="imagem/twitter.png" alt="" width="50px">
+        <!-- A tag de fechamento abaixo parece não estar correta, você pode removê-la -->
+        <!-- </class> -->
+        <p>Copyright ©️ 2023 beatriz baioco | All Rights Reserved</p>
+    </footer>
+   
+    </div>
+
+</html>

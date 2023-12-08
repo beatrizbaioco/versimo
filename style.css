@@ -1,0 +1,176 @@
+* {
+    margin: 0px;
+}
+
+header {
+    color: #000000;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    
+}
+
+
+nav ul {
+    background-color: #DCCCFF;
+    width: 1512px;
+    list-style: none;
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* Centraliza verticalmente */
+}
+
+nav li {
+    margin: 0 20px;
+    font-size: 24px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #590061;
+    font-weight: regular;
+   /*  transition: color 0.3s; */
+}
+
+nav a:hover {
+    color: blueviolet;
+    /* Cor de destaque quando o mouse passa por cima */
+}
+
+.logo {
+    max-width: 200px;
+    /* Largura máxima da imagem do logo */
+    margin-right: 20px;
+    /* Espaçamento á direita da imagem do logo */
+}
+
+ul{
+    display: flex;
+    align-items: center;
+}
+img{
+    max-width: 300px;
+    max-height: 100px;
+}
+
+main {
+    padding: 20px;
+}
+
+footer {
+    display: flex;
+    background-color:#B51BE1;
+    color: #fcfcfc;
+    text-align: center;
+    padding: 10px;
+    bottom: 0;
+    width: 100%;
+}
+
+.rodape{
+    display: flex;
+    width: 1512px;
+    padding: 8px 240px 8px 240px;
+    gap: 40px;
+    align-items: center;
+    background: var(--principal-2,#B51BE1 );
+}
+.logomenu{
+    max-width: 200px;
+    max-height: 200px;
+}
+
+body {
+    margin: 0; 
+    overflow: hidden; 
+}
+.imagem-redonda {
+    border-radius: 70%; /* Isso torna a imagem redonda */
+    width: 110px; /*  largura da imagem */
+    height: 150px; /*  a altura da imagem */
+
+}
+
+.imagemlateral {
+    position: fixed;
+    top: 15%;
+    right: 0;
+    
+}
+
+
+body {
+    background-color: #19001B; 
+    color: #fff; 
+}
+
+h1 {
+    margin-left: 500px;
+    margin: 100px ;
+}
+
+
+.capa{
+    background-image: url("imagem/capa.png");
+    background-size: cover;
+    height: 80vh;
+}
+
+h2 {
+    margin: 80px;
+    top: 20px; /* Ajuste a distância do topo conforme necessário */
+    right: 20px; /* Ajuste a distância da direita conforme necessário */
+}
+
+.fotosfuturas{
+display: flex;
+margin: 80px;
+}
+
+.fotosfuturas img {
+    width: 150px;
+    height: 100px;
+    margin-right: 10px;
+}
+
+
+.popup-caixa {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.5);
+}
+
+.popup-conteudo {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: rgb(3, 47, 26);
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+    text-align: center;
+}
+
+.fechar {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.popupbonito {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    text-transform: uppercase;
+    color: antiquewhite;
+}
+
